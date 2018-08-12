@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="singleThreadSuite" duration-ms="205585" started-at="2017-12-26T22:16:59Z" finished-at="2017-12-26T22:20:25Z">
+    <groups>
+    </groups>
+    <test name="singleThreadTest" duration-ms="205585" started-at="2017-12-26T22:16:59Z" finished-at="2017-12-26T22:20:25Z">
+      <class name="pagebase.WebPageBaseClass">
+        <test-method status="PASS" signature="setupDriver(java.lang.String)[pri:0, instance:pagebase.WebPageBaseClass@91161c7]" name="setupDriver" is-config="true" duration-ms="84261" started-at="2017-12-27T03:46:59Z" finished-at="2017-12-27T03:48:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="testFunctionality(java.lang.String, java.lang.String)[pri:0, instance:pagebase.WebPageBaseClass@91161c7]" name="testFunctionality" duration-ms="112686" started-at="2017-12-27T03:48:24Z" finished-at="2017-12-27T03:50:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sheekhaj4893@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GOODshikha19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFunctionality -->
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:pagebase.WebPageBaseClass@91161c7]" name="killDriver" is-config="true" duration-ms="8366" started-at="2017-12-27T03:50:17Z" finished-at="2017-12-27T03:50:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+      </class> <!-- pagebase.WebPageBaseClass -->
+    </test> <!-- singleThreadTest -->
+  </suite> <!-- singleThreadSuite -->
+</testng-results>

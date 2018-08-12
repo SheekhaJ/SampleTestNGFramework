@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="singleThreadSuite">
+
+	<packages>
+		<package name="includedPackage">
+			<include name="pagebase"></include>
+		</package>
+	</packages>
+
+	<test name="singleThreadTest">
+		<classes>
+			<class name="pagebase.WebPageBaseClass">
+			</class>
+		</classes>
+	</test>
+	
+	<parameter name="Browser" value="CHROME"></parameter>
+	<parameter name="username" value="sheekhaj4893@gmail.com"></parameter>
+	<parameter name="password" value="GOODshikha19"></parameter>
+
+</suite>

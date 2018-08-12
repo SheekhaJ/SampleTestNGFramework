@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [singleThreadSuite]">
+  <parameter name="password" value="GOODshikha19"/>
+  <parameter name="username" value="sheekhaj4893@gmail.com"/>
+  <packages>
+    <package name="includedPackage">
+      <include name="pagebase"/>
+    </package> <!-- includedPackage -->
+  </packages>
+  <test name="singleThreadTest(failed)">
+    <classes>
+      <class name="pagebase.WebPageBaseClass">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="killDriver"/>
+          <include name="testFunctionality"/>
+        </methods>
+      </class> <!-- pagebase.WebPageBaseClass -->
+    </classes>
+  </test> <!-- singleThreadTest(failed) -->
+</suite> <!-- Failed suite [singleThreadSuite] -->
